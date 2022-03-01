@@ -1,0 +1,53 @@
+.App-button {
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+    border-style: solid;
+    margin: 30px;
+    width: 300px;
+    height: 45px;
+    border-width: 2px;
+    align-items: center;
+}
+
+#button-green {
+    background-color: #29BF89;
+    border-color: #29BF89;
+}
+
+#button-white {
+    background-color: #FAFAFA;
+    border-color: #FAFAFA;
+}
+
+#button-clear {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #FFFFFF;
+}
+
+#button-clearAlt {
+    border-color: #29BF89;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.App-button-text {
+    /* font-family: Open Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
+}
+
+#button-text-white {
+    color: #FFFFFF;
+}
+
+#button-text-green {
+    color: #29BF89;
+}
+
+#button-text-grey {
+    color: #CFD8DC;
+}
